@@ -1,4 +1,3 @@
-import About from "./about-page";
-import { aboutStyles } from "./about-page";
+import About from ".";
 
-export default {About, aboutStyles};
+export default About

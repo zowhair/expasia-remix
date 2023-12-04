@@ -1,5 +1,5 @@
 import type { LinksFunction } from "@remix-run/node";
-import styles from "~/styles/about_style.css";
+import styles from "./about_style.css";
 
 
 export const aboutStyles: LinksFunction = () => [
@@ -10,6 +10,6 @@ export const aboutStyles: LinksFunction = () => [
 
 export default function About() {
     return (
-        <h1>This is about page..!</h1>
+        <h1 className="about-container">This is about page..!</h1>
     )
 }
